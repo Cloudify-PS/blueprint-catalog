@@ -7,13 +7,13 @@
         f = {
             nfv: {
                 order: 1,
-                name: "Cloudify Labs",
+                name: "Cloudify Labs examples catalog",
                 githubQuery: "user:cloudify-labs",
                 canUpload: !0
             },
             blueprints: {
                 order: 2,
-                name: "blueprints",
+                name: "general cloudify examples blueprints - configuration required",
                 githubQuery: "-blueprint+in:name+fork:true+user:cloudify-examples",
                 canUpload: !0
             }
